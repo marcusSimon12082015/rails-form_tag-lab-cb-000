@@ -10,7 +10,6 @@ class StudentsController < ApplicationController
   end
 
   def new
-    @student = Student.last
   end
 
   def show
